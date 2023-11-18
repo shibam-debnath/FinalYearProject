@@ -1,14 +1,18 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './home.module.scss'
-// Sections
-import TopNavbar from "../../components/TopNavBar/TopNavBar";
+// Sectionsimport TopNavbar from "../../components/TopNavBar/TopNavBar";
+import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 
 function home() {
   return (
     <div className={styles.container}>
-      <TopNavbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
